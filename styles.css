@@ -1,17 +1,22 @@
 body{
-	background-color: #008000;
-
+	background-image: url("images/balloon.jfif"); 
+	  background-repeat: no-repeat; background-size: cover;
 }
 
 header{
-		background-color: #006400;
+		background-color: black;
+		color: white;
 		border-bottom: 2px solid black;
 		text-align: center;
 		padding: 2%;
 }
 
+.container{
+	position: relative;
+}
+
 .header-text{
-	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-family: "Times New Roman", cursive, serif;
 	font-size: 200%;
 	font-weight: bold;
 }
@@ -19,7 +24,9 @@ header{
 .video{
 	text-align: center;
 	padding-top: 8%;
+
 }
+
 
 .quiz{
 	text-align: center;
@@ -27,8 +34,12 @@ header{
 	font-size: 200%;
 	font-weight: bold;
 	background-color: white;
+	padding-top: 4%;
+	color: green;
 	width: 100%;
 	height: 1000px;
+
+
 }
 
 .q{
