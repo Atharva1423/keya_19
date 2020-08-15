@@ -1,6 +1,19 @@
 body{
 	background-image: url("images/balloon.jfif"); 
-	  background-repeat: no-repeat; background-size: cover;
+	background-repeat: no-repeat; background-size: cover;
+}
+
+@font-face {
+  font-family: myFirstFont;
+  src: url(GABRWFFR.TTF);
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 header{
@@ -16,8 +29,8 @@ header{
 }
 
 .header-text{
-	font-family: "Times New Roman", cursive, serif;
-	font-size: 200%;
+	font-family:myFirstFont;
+	font-size: 250%;
 	font-weight: bold;
 }
 
