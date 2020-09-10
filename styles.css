@@ -32,15 +32,8 @@ header{
 	font-weight: bold;
 }
 
-.video{
-	width: 100%;
-	height: 100%;
-  	box-shadow: 0 1px 5px 5px green;
-}
-
-
 .vid-container{
-	padding: 5%
+text-align: center;
 }
 
 
@@ -49,9 +42,13 @@ header{
 	padding: 5%;
 	color: green;
 	width: 100%;
-	height: 1200px;	  	
+	height: 1500px;	  	
 	box-shadow: 0 1px 5px 5px green;
 
+}
+
+h4{
+	color: green;
 }
 
 .head{
