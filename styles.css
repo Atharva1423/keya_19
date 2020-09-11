@@ -38,9 +38,10 @@ text-align: center;
 .q{
 	background-color: white;
 	padding: 5%;
+	vertical-align: middle;
 	color: black;
 	width: 100%;
-	height: 1900px;	  	
+	height: 1800px;	  	
 	box-shadow: 0 0px 10px 5px grey
 }
 
@@ -90,5 +91,9 @@ li{
 }
 
 form span{
+	background-color: white;
+	border-radius: 4px;
+	font-weight: bold;
+	padding: 3px;
 	color: blue;
 }
